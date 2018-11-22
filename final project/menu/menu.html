@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" type="text/css" href="menu.css ">
+</head>
+<script>
+	function remove()
+	{
+	document.getElementById("a").innerHTML+="<button>Remove From Cart</button>";
+	}
+</script>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<a href="../home.html" title="Go to Home Page"><img src="../3.png"></a>
+			</div>
+			<ul>
+				<li><a href="../home.html">Home</a></li>
+				<li><a href="offers/Offers.html">Offers</a></li>
+				<li class="active"><a href="menu.html">Menu</a></li>
+				<li><a href="../mycart.html" title="Go to My Cart"><img src="../4.png" alt="cart" width="20" height="15">My Cart</a></li>
+				<li><a href="../login/login.html">Login</a></li>
+				<li><a href="../signup/signup.html">SignUp</a></li>
+				<li><a href="../About Us.html">About Us</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="top">
+		<a href="offers/Offers.html" target="_blank">
+			<img src="Offer.jpg" height="500px" width="100%">
+		</a>	
+	</div>
+	
+
+	<div class="row" margin-top="10px" margin="60 px" padding="50px">
+  		<div class="column">
+  	  		<a href="Chicken Biriyani.jpg" target="_blank">
+    			<img src="Chicken Biriyani.jpg" width="280px" height="300px">
+				<p align="center">Chicken Biriyani</p>
+			</a>
+			<p align="center">Rs. 280</p>
+			
+			<form action="addcart.php" method="POST" align="center">
+				<input type="hidden" name="item" value="Chicken Biryani" >
+				<input type="hidden" name="cost" value="280">
+					<button onclick="remove()" id="a"> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Chicken Nuggets.jpg" target="_blank">
+    			<img src="Chicken Nuggets.jpg" width="260px" height="300px" >
+				<p align="center">Chicken Nuggets</p>
+    		</a>
+			<p align="center">Rs. 100</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Chicken Nuggets" >
+				<input type="hidden" name="cost" value="100">
+					<button> Add to Cart </button>
+			</form>
+  		</div>
+		
+		<div class="column">
+  			<a href="Chicken Fry.jpg" target="_blank">
+    			<img src="Chicken Fry.jpg" width="260px" height="300px">
+				<p align="center">Chicken Fry</p>
+    		</a>
+			<p align="center">Rs. 100</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Chicken Fry" >
+				<input type="hidden" name="cost" value="100">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+		
+  		<div class="column">
+  			<a href="Paneer Pizza.jpg" target="_blank">
+    			<img src="Paneer Pizza.jpg" width="260px" height="300px">
+				<p align="center">Paneer Pizza</p>
+    		</a>
+			<p align="center">Rs. 150</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Paneer Pizza" >
+				<input type="hidden" name="cost" value="150">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Chicken Pizza.jpg" target="_blank">
+    			<img src="Chicken Pizza.jpg" width="260px" height="300px">
+				<p align="center">Chicken Pizza</p>
+    		</a>
+			<p align="center">Rs. 200</p>
+			<form action="addcart.php"  align="center" method="POST">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Veg Burger.jpg" target="_blank">
+    			<img src="Veg Burger.jpg" width="260px" height="300px">
+				<p align="center">Veg Burger</p>
+    		</a>
+			<p align="center">Rs. 60</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Veg Burger" >
+				<input type="hidden" name="cost" value="60">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Chicken Burger.jpg" target="_blank">
+    			<img src="Chicken Burger.jpg" width="260px" height="300px">
+				<p align="center">Chicken Burger</p>
+    		</a>
+			<p align="center">Rs. 80</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Chicken Burger" >
+				<input type="hidden" name="cost" value="80">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Brownie Sundae.jpg" target="_blank">
+    			<img src="Brownie Sundae.jpg" width="260px" height="300px">
+				<p align="center">Brownie Sundae</p>
+    		</a>
+			<p align="center">Rs. 100</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Brownie Sundae" >
+				<input type="hidden" name="cost" value="100">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Piggy Pie.jpg" target="_blank">
+    			<img src="Piggy Pie.jpg" width="260px" height="300px">
+				<p align="center">Piggy Pie</p>
+    		</a>
+			<p align="center">Rs. 120</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Piggy Pie" >
+				<input type="hidden" name="cost" value="120">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Peanut Dessert Butter Pizza.jpg" target="_blank">
+    			<img src="Peanut Dessert Butter Pizza.jpg" width="260px" height="300px">
+				<p align="center">Peanut Dessert Butter Pizza</p>
+    		</a>
+			<p align="center">Rs. 150</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Peanut Desert.." >
+				<input type="hidden" name="cost" value="150">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Brownie Trifle.jpg" target="_blank">
+    			<img src="Brownie Trifle.jpg" width="260px" height="300px">
+				<p align="center">Brownie Trifle</p>
+    		</a>
+			<p align="center">Rs. 120</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Brownie Trifle" >
+				<input type="hidden" name="cost" value="120">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="Fudge Ice Cream.jpg" target="_blank">
+    			<img src="Fudge Ice Cream.jpg" width="260px" height="300px">
+				<p align="center">Fudge Ice Cream</p>
+    		</a>
+			<p align="center">Rs. 150</p>
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Fudge Ice Cream" >
+				<input type="hidden" name="cost" value="150">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		<div class="column">
+  			<a href="French Fries.jpg" target="_blank">
+    			<img src="French Fries.jpg" width="260px" height="300px">
+				<p align="center">French Fries</p>
+    		</a>
+			<p align="center">Rs. 100</p>
+			<form action="addcart.php"  method="POST" align="center" method="POST">
+				<input type="hidden" name="item" value="French Fries" >
+				<input type="hidden" name="cost" value="100">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+  		
+  		<div class="column">
+  			<a href="Coke.jpg" target="_blank">
+    			<img src="Coke.jpg" width="260px" height="300px">
+				<p align="center">Coke</p>
+    		</a>
+			<p align="center">Rs. 50</p>
+			<form action="addcart.php"  align="center" method="POST">
+					<button> Add to Cart </button>
+				</form>
+  		</div>
+
+  	</div>
+</body>
+</html>

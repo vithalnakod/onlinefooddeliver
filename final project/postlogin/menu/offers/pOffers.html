@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Offers</title>
+	<link rel="stylesheet" type="text/css" href="../../../menu/offers/offers.css ">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<a href="../../phome.html" title="Go to Home Page"><img src="../../../3.png"></a>
+			</div>
+			<ul>
+				<li><a href="../../phome.html">Home</a></li>
+				<li class="active"><a href="pOffers.html">Offers</a></li>
+				<li><a href="../pmenu.html">Menu</a></li>
+				<li><a href="../../mycart.html" title="Go to My Cart"><img src="../../../4.png" alt="cart" width="20" height="15">My Cart</a></li>
+				<li><a href="../../../home.html">Logout</a></li>
+				
+				<li><a href="../../pAbout Us.html">About Us</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+		<div class="top">
+		<img src="../../../menu/offers/Combo Offer.jpg" height="700px" width="100%">		
+	</div>
+	
+	<div class="row" margin-top="10px" margin="60 px" padding="50px">
+  		<div class="column">
+  	  		<a href="../../../menu/offers/Biriyani Coke.png" target="_blank">
+    			<img src="../../../menu/offers/Biriyani Coke.png" width="280px" height="300px">
+				<p align="center">Chicken Biriyani with Coke</p>
+			</a>
+			<p align="center"><del>Rs. 330</del><br>Rs. 300</p>
+			
+			<form action="addcart.php" method="POST" align="center">
+				<input type="hidden" name="item" value="Chicken Biryani with Coke" >
+				<input type="hidden" name="cost" value="300">
+					<button onclick="remove()" id="a"> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Burger Coke Fries.jpg" target="_blank">
+    			<img src="../../../menu/offers/Burger Coke Fries.jpg" width="280px" height="300px">
+				<p align="center">Veg Burger, Coke and Fries.jpg</p>
+			</a>
+			<p align="center"><del>Rs. 210</del><br>Rs. 170</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Veg Burger Coke and Fries" >
+				<input type="hidden" name="cost" value="170">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Chicken Burger Coke Fries.jpg" target="_blank">
+    			<img src="../../../menu/offers/Chicken Burger Coke Fries.jpg" width="280px" height="300px">
+				<p align="center">Chicken Burger,Coke and Fries</p>
+			</a>
+			<p align="center"><del>Rs. 230</del><br>Rs. 200</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Chicken Burger Coke and Fries" >
+				<input type="hidden" name="cost" value="200">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Burger Coke.png" target="_blank">
+    			<img src="../../../menu/offers/Burger Coke.png" width="280px" height="300px">
+				<p align="center">Veg Burger with Coke</p>
+			</a>
+			<p align="center"><del>Rs. 110</del><br>Rs. 90</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Veg Burger with Coke" >
+				<input type="hidden" name="cost" value="90">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Chicken Burger Coke.jpg" target="_blank">
+    			<img src="../../../menu/offers/Chicken Burger Coke.jpg" width="280px" height="300px">
+				<p align="center">Chicken Burger with Coke</p>
+			</a>
+			<p align="center"><del>Rs. 130</del><br>Rs. 100</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Chicken Burger with Coke" >
+				<input type="hidden" name="cost" value="100">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Burger Fries.jpg" target="_blank">
+    			<img src="../../../menu/offers/Burger Fries.jpg" width="280px" height="300px">
+				<p align="center">Veg Burger with Fries</p>
+			</a>
+			<p align="center"><del>Rs. 160</del><br>Rs. 130</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Veg Burger with Fries" >
+				<input type="hidden" name="cost" value="130">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Chicken Burger Fries.jpg" target="_blank">
+    			<img src="../../../menu/offers/Chicken Burger Fries.jpg" width="280px" height="300px">
+				<p align="center">Chicken Burger with Fries</p>
+			</a>
+			<p align="center"><del>Rs. 180</del><br>Rs. 150</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Chicken Burger with Fries" >
+				<input type="hidden" name="cost" value="150">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Pizza Coke.jpg" target="_blank">
+    			<img src="../../../menu/offers/Pizza Coke.jpg" width="280px" height="300px">
+				<p align="center">Pizza with Coke</p>
+			</a>
+			<p align="center"><del>Rs. 200</del><br>Rs. 170</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Pizza with Coke" >
+				<input type="hidden" name="cost" value="170">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Chicken Pizza Coke.jpg" target="_blank">
+    			<img src="../../../menu/offers/Chicken Pizza Coke.jpg" width="280px" height="300px">
+				<p align="center">Chicken Pizza with Coke</p>
+			</a>
+			<p align="center"><del>Rs. 250</del><br>Rs. 200</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Chicken Pizza with Coke" >
+				<input type="hidden" name="cost" value="200">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		<div class="column">
+  	  		<a href="../../../menu/offers/Chicken Burger Coke Chicken Fry.jpg" target="_blank">
+    			<img src="../../../menu/offers/Chicken Burger Coke Chicken Fry.jpg" width="280px" height="300px">
+				<p align="center">Chicken Burger, Coke and Chicken Fry</p>
+			</a>
+			<p align="center"><del>Rs. 230</del><br>Rs. 200</p>
+			
+			<form action="addcart.php"  align="center" method="POST">
+				<input type="hidden" name="item" value="Chicken Burger Coke and Chicken Fry" >
+				<input type="hidden" name="cost" value="200">
+					<button> Add to Cart </button>
+			</form>
+		</div>
+		
+		
+		
+	</div>
+	
+	
+	
